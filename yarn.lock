@@ -2110,10 +2110,10 @@
     prompts "2.4.2"
     to-snake-case "1.0.0"
 
-"@payloadcms/next-payload@^0.1.7":
-  version "0.1.7"
-  resolved "https://registry.npmjs.org/@payloadcms/next-payload/-/next-payload-0.1.7.tgz#26fa4eeaf72e010cda14173619a285d65d7549d1"
-  integrity sha512-nxpw7O+hFrjYYEdJ/qiC7WFA9mJTBEk5mzYPuRmT+5FsBpcd5lDkwI5chlqIgGIigjtR2H/A8jX9MHmjuHaXDA==
+"@payloadcms/next-payload@^0.1.9":
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@payloadcms/next-payload/-/next-payload-0.1.9.tgz#d0141af88883a61bc507adb2ec8d03b7eef244ef"
+  integrity sha512-yvmT+jfJmlR8+Gm2xHsFOQIpOy2cW0/xcgyLcntOmPipvOhu2SbUtPSo5+KQV3uM+YMfNz6UO0Jqrhzj4Y6QAQ==
   dependencies:
     "@payloadcms/bundler-webpack" "^1.0.2"
     "@payloadcms/db-mongodb" "^1.0.3"
@@ -3135,6 +3135,11 @@
   dependencies:
     "@typescript-eslint/types" "5.62.0"
     eslint-visitor-keys "^3.3.0"
+
+"@uidotdev/usehooks@^2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@uidotdev/usehooks/-/usehooks-2.4.1.tgz#4b733eaeae09a7be143c6c9ca158b56cc1ea75bf"
+  integrity sha512-1I+RwWyS+kdv3Mv0Vmc+p0dPYH0DTRAo04HLyXReYBL9AeseDWUJyi4THuksBJcu9F0Pih69Ak150VDnqbVnXg==
 
 "@vercel/edge@^0.1.2":
   version "0.1.2"
