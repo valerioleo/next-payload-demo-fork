@@ -1,5 +1,6 @@
 'use client';
 
+import { useToggle } from '@uidotdev/usehooks';
 import { GridProvider } from '@faceless-ui/css-grid';
 import { ModalContainer, ModalProvider } from '@faceless-ui/modal';
 import React from 'react';
@@ -17,8 +18,13 @@ const Layout = ({
   mainMenu,
   children,
 }: Props): React.ReactElement => {
+  const [value, toggleValue] = useToggle(false)
+
+
   return (
     <React.Fragment>
+      <button onClick={() => toggleValue()}>Toggle</button>
+      {String(value)}
       <GridProvider
         breakpoints={{
           s: cssVariables.breakpoints.s,

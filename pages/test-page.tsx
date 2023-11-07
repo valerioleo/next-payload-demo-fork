@@ -1,9 +1,9 @@
-import { useToggle } from '@uidotdev/usehooks';
+import { useToggle } from 'react-use';
 import React from 'react';
 
 const MockComponent = () => {
   
-  const [value, toggleValue] = useToggle()
+  const [value, toggleValue] = useToggle(false)
   
   return (
     <div>
